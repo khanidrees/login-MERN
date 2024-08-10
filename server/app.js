@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-const whitelist = ['http://localhost:5173'];
+const whitelist = ['https://login-mern-frontnd.onrender.com'];
 
 const corsOptions = {
   origin: function (origin, callback) {
